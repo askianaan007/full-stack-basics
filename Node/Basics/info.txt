@@ -1,0 +1,44 @@
+http, https - for data communication 
+https - more secure way to connect
+
+core modules---->
+fs - file write or read
+http - to create http server
+https - to create secure http server
+path - 
+os - operating system data
+
+
+npm -------------------------------->
+npm init // create npm 
+if create our own command in npm we should use npm run instead of the npm start
+
+npm packages--
+third party packages --
+1. nodemon -- for auto reload node.js
+2. express
+3. body-parser etc..
+
+when we install the package we should consider 2 things
+1. development dependency -- for development purpose only --> npm install --save-dev
+2. production dependency --> npm install --save 
+
+package-lock.json file contain the package when we in development
+
+
+types of errors------->
+
+1.syntax errors --
+    to find the syntax in two ways:
+        using mouse over the redline
+        when we save the program the terminal will show the error "unexpected identifier"
+2.runtime errors
+
+3.logical errors
+    we may find the error using debugger
+
+
+
+EXPRESS.JS---------------------------------------------------------------->
+
+to simplify the node.js

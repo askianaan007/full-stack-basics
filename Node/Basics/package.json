@@ -1,0 +1,21 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "description": "node js basic practice from jvl code",
+  "main": "app.js",
+
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+
+
+  "author": "aski",
+  "license": "ISC",
+
+
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
