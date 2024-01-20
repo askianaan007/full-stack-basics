@@ -1,0 +1,7 @@
+npm init -y
+npm i express --save
+
+use--> we can implement middle ware using this function 
+
+404 error -->
+when unknown url is requested
