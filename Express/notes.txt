@@ -5,3 +5,8 @@ use--> we can implement middle ware using this function
 
 404 error -->
 when unknown url is requested
+
+tempalting engines --> 
+1.pug
+2.ejs
+3.handlebars
