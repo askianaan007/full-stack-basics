@@ -1,0 +1,38 @@
+mongodb                    ||  mysql
+___________________________||  ________________________________________________________________
+collection                 ||    tables
+saving in doc as json      ||    saving in data
+no sql                     ||    using sql database
+                           ||
+                           ||
+                           ||
+                           ||
+                           ||
+
+mongosh //to start
+show dbs //to show dbs
+use shop //to use shop database
+db.products.insertOne({name:"harry potter book",price:"30$"}) // insert data into products
+db.products.findOne() // find a data
+db.products.find() //find all data
+
+CRUD-------->(create,read,update,delete)
+
+insert -------
+insertOne //create a one data in the collection
+db.employee.insertMany //insert many datas
+
+Read --------
+findOne() // find a data in the first
+db.employee.findOne({name:"nisith"}) // filtering specific data
+
+Data ---------
+db.employee.updateOne({name:"nisith" },{$set:{"details.position":"java developer"}}) // update specific data
+b.employee.updateMany({"details.position":"java developer"},{$set:{"details.salary":60000}}) // update many data
+
+Delete--------
+db.employee.deleteOne({name:"nisith"})  // delete specific data
+db.employee.deleteMany({"details.position":"php developer"})  // delete many data
+
+
+db.createCollection ('users',{size:5242880})
